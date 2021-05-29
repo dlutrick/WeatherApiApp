@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+// Components
+import Header from "./components/Header";
+
 function Main() {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <Header />
     </div>
   );
 }
